@@ -15,7 +15,7 @@ body {
     /* Add position relative to contain absolute positioned elements */
     /* background-color: #89b7fd56; */
     /* filter: blur(40px); */
-    height: 100vh;
+    /* min-height: 100vh; */
     margin: 0;
     background-repeat: repeat-y;
 }
@@ -25,7 +25,8 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    min-height: 100%;
+    height: max-content;
     /* z-index: -1; */
     filter: blur(7px);
     background-repeat: repeat;
