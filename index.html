@@ -1,11 +1,10 @@
 <!DOCTYPE html>
+
 <html lang="en">
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Grzegorz Chodak pwr</title>
 
     <script
@@ -24,7 +23,7 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-    <script src="script.js" defer></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js"></script>
 
     <link
       rel="stylesheet"
@@ -38,6 +37,7 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     />
+    <script src="script.js"></script>
     <link href="style.css" rel="stylesheet" />
     <title>Document</title>
   </head>
@@ -46,7 +46,7 @@
       class="background-image"
       src="Politechnika-Wroclawska.jpg"
       alt="Background Image"
-      style="height: 140%"
+      style="height: 100%"
     />
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -90,6 +90,19 @@
     </nav>
     <!-- show alert -->
 
+    <div
+      class="modal fade bd-example-modal-lg"
+      id="subjectModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myLargeModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">...</div>
+      </div>
+    </div>
+
     <main class="m-3 row">
       <div class="row-4 col row-xl-5">
         <div class="card m-3">
@@ -109,52 +122,47 @@
                 <h6 class="card-subtitle mb-2 text-muted">
                   Katedra Badań Operacyjnych i Inteligencji Biznesowej (W8/K43)
                 </h6>
-                <p class="card-text">
-                  Wydział Zarządzania<br />Politechnika Wrocławska
+                <p class="card-text mb-4">
+                  Wydział Zarządzania, Politechnika Wrocławska
                 </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card m-3">
-          <div class="card-body">
-            <div class="row">
-              <div class="col-md-12">
-                <h5 class="card-title">
-                  Miejsce urzędowania: pokój 507 bud. B4
-                </h5>
-                <p class="card-text">
-                  <b>Stanowisko:</b> <span class="text-primary">prof. PWr</span>
-                </p>
+                <div class="row align-items-center">
+                  <div class="col-md-6">
+                    <h6 class="card-subtitle mb-2">Miejsce urzędowania:</h6>
+                    <p class="card-text">Pokój 507, bud. B4</p>
+                  </div>
+                  <div class="col-md-6 text-center">
+                    <a
+                      href="https://www.linkedin.com/in/grzegorz-chodak-24b4426/"
+                      target="_blank"
+                      class="me-2"
+                    >
+                      <img
+                        src="Linkedin.svg"
+                        height="50"
+                        width="50"
+                        alt="LinkedIn Logo"
+                      />
+                    </a>
+                    <a
+                      href="https://orcid.org/0000-0002-9604-482X"
+                      target="_blank"
+                    >
+                      <img
+                        src="orcid.svg"
+                        height="50"
+                        width="50"
+                        alt="ORCID iD"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <hr />
                 <p class="card-text">
                   <b>E-mail:</b>
                   <a href="mailto:grzegorz.chodak@pwr.edu.pl"
                     >grzegorz.chodak@pwr.edu.pl</a
                   >
                 </p>
-              </div>
-              <div class="col-md-3 text-center">
-                <a
-                  href="https://www.linkedin.com/in/grzegorz-chodak-24b4426/"
-                  target="_blank"
-                >
-                  <img
-                    src="Linkedin-logo.png"
-                    height="60"
-                    width="60"
-                    alt="LinkedIn Logo"
-                  />
-                </a>
-              </div>
-              <div class="col-md-3 text-center">
-                <a href="https://orcid.org/0000-0002-9604-482X" target="_blank">
-                  <img
-                    src="ORCID_iD.png"
-                    height="60"
-                    width="60"
-                    alt="ORCID iD"
-                  />
-                </a>
               </div>
             </div>
           </div>
@@ -220,63 +228,44 @@
         <li class="list-group-item">
           <b>Materiały do zajęć dla studentów:</b>
         </li>
-        <li class="list-group-item">
-          <a href="zaawansowane_metody_wspomagania_e_biznesu.html"
-            >Metody wspomagania e-binesu</a
-          >
+        <li class="list-group-item btn text-primary subject" id="subject-0">
+          Metody wspomagania e-biznesu
         </li>
-        <li class="list-group-item">
-          <a href="mikroekonomia.htm" target="_blank">Mikroekonomia</a>
+        <li class="list-group-item btn text-primary subject" id="subject-1">
+          Mikroekonomia
         </li>
-        <li class="list-group-item">
-          <a href="modelowanie-makroekonomiczne.htm" target="_blank"
-            >Modelowanie makroekonomiczne</a
-          >
+        <li class="list-group-item btn text-primary subject" id="subject-2">
+          Modelowanie makroekonomiczne
         </li>
-        <li class="list-group-item">
-          <a href="podstawy.htm">Ekonomia (wersja podstawowa)</a>
+        <li class="list-group-item btn text-primary subject" id="subject-3">
+          Ekonomia (wersja podstawowa)
         </li>
-        <li class="list-group-item">
-          <a href="wykorzystanie_internetu.htm" target="_blank"
-            >Efektywne wykorzystanie internetu w działalności gospodarczej</a
-          >
+        <li class="list-group-item btn text-primary subject" id="subject-4">
+          Efektywne wykorzystanie internetu w działalności gospodarczej
         </li>
-        <li class="list-group-item">
-          <a href="zaawansowane_techniki.htm"
-            >Zaawansowane techniki wykorzystania interenetu w
-            przedsiębiorstwie</a
-          >
+        <li class="list-group-item btn text-primary subject" id="subject-5">
+          Zaawansowane techniki wykorzystania interenetu w przedsiębiorstwie
         </li>
-        <li class="list-group-item">
-          <a href="dzialalnosc_gospodarcza.html" target="_blank"
-            >Podstawy prowadzenia biznesu</a
-          >
+        <li class="list-group-item btn text-primary subject" id="subject-6">
+          Podstawy prowadzenia biznesu
         </li>
-        <li class="list-group-item">
-          <a href="Principles_of_Economics.htm"
-            >Principles of Economics (English version)</a
-          >
+        <li class="list-group-item btn text-primary subject" id="subject-7">
+          Principles of Economics (English version)
         </li>
-        <li class="list-group-item">
-          <a href="microeconomics.htm">Microeconomics (English version)</a>
+        <li class="list-group-item btn text-primary subject" id="subject-8">
+          Microeconomics (English version)
         </li>
-        <li class="list-group-item">
-          <a href="macroeconomics.htm">Macroeconomics (English version)</a>
+        <li class="list-group-item btn text-primary subject" id="subject-9">
+          Macroeconomics (English version)
         </li>
-        <li class="list-group-item">
-          <a href="makroekonomia.htm">Makroekonomia</a>
+        <li class="list-group-item btn text-primary subject" id="subject-10">
+          Makroekonomia
         </li>
-        <li class="list-group-item">
-          <a href="Seminarium.html"
-            ><span style="text-decoration: underline"
-              >Seminarium dyplomowe</span
-            ></a
-          >
+        <li class="list-group-item btn text-primary subject" id="subject-11">
+          Seminarium dyplomowe
         </li>
-        <li class="list-group-item">
-          <a href="wnioskowanie.htm"
-            >Wprowadzenie do wnioskowania ekonomicznego</a
-          >
+        <li class="list-group-item btn text-primary subject" id="subject-12">
+          Wprowadzenie do wnioskowania ekonomicznego
         </li>
       </ol>
     </main>
