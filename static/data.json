@@ -1,0 +1,62 @@
+{
+    "subject-0": {
+        "title": "Wykłady z Metody wspomagania E-biznesu",
+        "description": "Wersje wykładów na zajęciach mogą się różnić od podanych poniżej.",
+        "Wykład 1 historia": "wyklad_int/Historia_Internetu.pptx",
+        "Wykład 2 hosting": "wyklad_int/Hosting.pptx",
+        "Wykład 2,3 e-commerce": "wyklad_int/E-commerce.pptx",
+        "Wykład 4 Zarządzanie e-sklepem": "wyklad_int/Zarzadzanie_sklepem_internetowym.pptx",
+        "Wykład 5 logistyka w sklepie internetowym": "wyklad_int/logistyka_w_e_sklepie.pptx",
+        "Wykład 6 - marketing": "wyklad_int/Marketing_internetowy.pptx",
+        "Wykład 7 - Google AdWords": "wyklad_int/adwords_prezentacja.pptx",
+        "Wykład 8 - Pozycjonowanie": "wyklad_int/pozycjonowanie_wyklad.pptx"
+    },
+    "subject-1": {
+        "title": "Mikroekonomia",
+        "description": "Materiały do przedmiotu Mikroekonomia (wersja rozszerzona)",
+        "Mikroekonomia 1": "wyklad_mikro/mikro1.doc",
+        "Mikroekonomia 2": "wyklad_mikro/mikro2F.doc",
+        "Mikroekonomia 3": "wyklad_mikro/mikro3.doc",
+        "Mikroekonomia 4": "wyklad_mikro/mikro4b.doc",
+        "Mikroekonomia 5": "wyklad_mikro/mikro5.doc",
+        "Mikroekonomia 6": "wyklad_mikro/mikro6FIZO.doc",
+        "Mikroekonomia 7": "wyklad_mikro/mikro7FIZO.doc",
+        "Mikroekonomia 8": "wyklad_mikro/mikro8FIZO.doc",
+        "Mikroekonomia 9": "wyklad_mikro/mikro9FIZO.doc",
+        "Mikroekonomia 10": "wyklad_mikro/mikro10FIZO.doc",
+        "Mikroekonomia 11": "wyklad_mikro/mikro12.doc",
+        "Mikroekonomia 12": "wyklad_mikro/mikro14.doc"
+    },
+    "subject-2": {
+        "title": "Modelowanie makroekonomiczne",
+        "description": "Materiały do przedmiotu Modelowanie makroekonomiczne",
+        "Tematy do prezentacji": "wyklad_modelowanie_makroekonomiczne/Tematy_do_prezentacji.docx",
+        "Ciekawe cytaty": "wyklad_modelowanie_makroekonomiczne/cytaty.docx",
+        "Wykład 1 Wprowadzenie": "wyklad_modelowanie_makroekonomiczne/Wyklad_1.pptx",
+        "Wykład 2 Historia": "wyklad_modelowanie_makroekonomiczne/Wyklad_2_Historia.pptx",
+        "Wykład 3 Systemy gospodarcze": "wyklad_modelowanie_makroekonomiczne/Wyklad_3_Ustroje.pptx",
+        "Wykład 4-5 PKB i pochodne": "wyklad_modelowanie_makroekonomiczne/Wyklad_4_PKB.pptx",
+        "Wykład 6 Wzrost gospodarczy": "wyklad_modelowanie_makroekonomiczne/Wykład_6_Wzrost_gospodarczy.pptx",
+        "Wyklad 7 Cykle konkunkturalne": "wyklad_modelowanie_makroekonomiczne/Wyklad_6_Cykle_koniunkturalne.pptx",
+        "Wyklad 8 Polityka budżetowa": "wyklad_modelowanie_makroekonomiczne/Wyklad_7_Polityka_budzetowa.pptx",
+        "Wyklad 9 podatki": "wyklad_modelowanie_makroekonomiczne/Wyklad_8_System_podatkowy.pptx",
+        "Wyklad 10 - 11 Polityka monetarna": "wyklad_modelowanie_makroekonomiczne/Wyklad_9_Pieniadz.pptx",
+        "Wykład 12 Inflacja": "wyklad_modelowanie_makroekonomiczne/Wykład_10_Inflacja.pptx",
+        "Wykład 13 Bezrobocie": "wyklad_modelowanie_makroekonomiczne/Wykład_11_Bezrobocie.pptx",
+        "Wykład 14 Gospodarka otwarta - materiały dodatkowe": "wyklad_makro60/makro10_gospodarka_otwarta.doc",
+        "Makro_organizacje_międzynarodowe (materiały dodatkowe)": "wyklad_makro60/makro11_organizacje_miedzynarodowe.doc",
+        "Makro_Unia_Europejska (materiały dodatkowe)": "wyklad_makro60/makro12_UE.doc",
+        "Teoria Keynesa materiały dodatkowe": "wyklad_makro60/makro4_keynes.doc"
+    },
+    "subject-3": {
+        "title": "Ekonomia",
+        "description": "Materiały do przedmiotu Ekonomia (wersja podstawowa 15h)",
+        "Mikroekonomia 1wprowadzenie": "wyklad_podstawy/mikro1_wprowadzenie.doc",
+        "Mikroekonomia 2_popyt podaż ceny": "wyklad_podstawy/mikro2_popyt_podaz.doc",
+        "Mikroekonomia 3 przedsiębiorstwo": "wyklad_podstawy/mikro3_przedsiebiorstwo.doc",
+        "Mikroekonomia 4 formy_rynku": "wyklad_podstawy/mikro4_formy_rynku.doc",
+        "Makroekonomia_PKB": "wyklad_podstawy/makro1_PKB.doc",
+        "Makroekonomia_budżet_podatki": "wyklad_podstawy/makro2_polityka_budzetowa_i_podatki.doc",
+        "Makroekonomia_bezrobocie": "wyklad_podstawy/makro3_bezrobocie.doc"
+    }
+}
