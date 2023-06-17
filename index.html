@@ -19,6 +19,7 @@
       src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
+      defer
     ></script>
     <!-- link to bootstrap -->
     <link
@@ -57,52 +58,43 @@
     />
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">Grzegorz Chodak</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html"
-                >Strona główna</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="publications.html">Publikacje</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="podyplomowe.html"
-                >Studia podyplomowe</a
-              >
-            </li>
-          </ul>
+      <a class="navbar-brand" href="#">Grzegorz Chodak</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="index.html"
+            >Strona główna <span class="sr-only">(current)</span></a
+          >
+          <a class="nav-item nav-link" href="publications.html">Publikacje </a>
+          <a class="nav-item nav-link" href="podyplomowe.html"
+            >Studia podyplomowe</a
+          >
         </div>
       </div>
     </nav>
-
     <main class="container-fluid">
       <div class="row">
         <div class="col-12 col-md-6 col-lg-4 p-3">
           <div class="card">
             <div class="row">
-              <div class="col">
+              <div class="col-5">
                 <img
                   src="https://www.ii.pwr.edu.pl/~grzegorz.chodak/photo_Grzegorz_Chodak.jpg"
                   class="img-fluid rounded-start p-1"
                   alt="Grzegorz Chodak"
                 />
               </div>
-              <div class="col">
+              <div class="col-7">
                 <div class="card-body">
                   <h5 class="card-title">
                     dr hab. inż. Grzegorz Chodak, prof. PWr
