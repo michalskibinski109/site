@@ -4,7 +4,6 @@
 > W tej wersji nie działa pobieranie plików. Oraz nie wszystkie ikonki sie wyswietlaja.
 
 ## Status projektu
-1. Nie wszystkie `Materiały do zajec dla studentow` zostaly przpisane
 2. Nie wszystkie publikacje sa zamieszczone.
  
 ## Dodawanie nowego kontentu

@@ -12,10 +12,6 @@
 
 body {
     position: relative;
-    /* Add position relative to contain absolute positioned elements */
-    /* background-color: #89b7fd56; */
-    /* filter: blur(40px); */
-    /* min-height: 100vh; */
     margin: 0;
     background-repeat: repeat-y;
 }
@@ -27,21 +23,12 @@ body {
     width: 100%;
     min-height: 100%;
     height: max-content;
-    /* z-index: -1; */
     filter: blur(7px);
     background-repeat: repeat;
-    /* Adjust the blur amount as per your preference */
 }
 
 
 main {
-    /* display: flex;
-    align-items: start;
-    justify-content: center;
-    flex-direction: row; */
-    /* height: 90%; */
     opacity: .87;
 
 }
-
-/* for phones change some properties */
