@@ -25,6 +25,7 @@ body {
     height: max-content;
     filter: blur(7px);
     background-repeat: repeat;
+    z-index: -1;
 }
 
 
